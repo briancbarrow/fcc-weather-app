@@ -1,0 +1,66 @@
+body {
+  font-family: Montserrat;
+  color: #002C14;
+  text-align: center;
+  background-color: #2C6FAA;
+  background: url('http://images.freeimages.com/images/previews/872/paperboard-1170236.jpg') no-repeat center center fixed; 
+  background-size: cover;
+  /*background-repeat: repeat;
+  background-position: fixed; */
+}
+
+.bottom-cont{
+  margin-top: 35px;
+  max-width: 500px;
+  min-width: 275px;
+}
+
+.border{
+  
+  border: solid;
+  border-width: thin;
+  border-radius: 9%/ 20%;
+  height: 50px;
+  padding-top: 5px;
+  margin: 0px;
+  background-color: #569BC0;
+  border-color: #060348;
+  
+}
+
+.icon-border{
+  border: solid;
+  border-radius: 9%/ 20%;
+  border-width: thin;
+  height: 50px;
+  margin: 0px;
+  background-color: #569BC0;
+  border-color: #060348;
+ 
+}
+
+.solid-text{
+  
+  color: #060348;
+}
+
+.big-text{
+  font-size: 20px;
+  color: #060348;
+}
+
+.top-row{
+  margin: auto;
+}
+
+/*.mini{
+  opacity: 0.95;
+} */
+
+button{
+  margin: 15px;
+  background-color: #4784BA;
+  border-color: #060348;
+  color: #060348;
+  outline: none;
+}
