@@ -68,7 +68,7 @@ $(document).ready(function() {
   });
 
   function getWeatherSubmit(city, region){
-    var weatherAPI = 'http://api.openweathermap.org/data/2.5/weather?q=' + city +',' + region + '&units=' + units + '&APPID=' + appID;
+    var weatherAPI = 'https://api.openweathermap.org/data/2.5/weather?q=' + city +',' + region + '&units=' + units + '&APPID=' + appID;
 
     $.get(weatherAPI, function(weather){
 
@@ -84,7 +84,7 @@ $(document).ready(function() {
 
       $('.weather').html('<h1 class="solid-text">' + weather.main.temp + '° ' + CorF + ' </h1>');
       $('.description').html('<h5 class="solid-text">' + weather.weather[0].description + '</h5>');
-      $('.icon').html('<img src="http://openweathermap.org/img/w/' + weather.weather[0].icon + '.png">');
+      $('.icon').html('<img src="https://openweathermap.org/img/w/' + weather.weather[0].icon + '.png">');
      /* $('body').css("background-image", "url(http://openweathermap.org/img/w/" + weather.weather[0].icon + ".png)");  */
       console.log(region);
     }, 'jsonp');
