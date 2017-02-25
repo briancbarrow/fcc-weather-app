@@ -46,7 +46,7 @@ $(document).ready(function() {
     $.get(weatherAPI, function(weather){
       $('.weather').html('<h1 class="solid-text">' + weather.main.temp + '° ' + CorF + ' </h1>');
       $('.description').html('<h5 class="solid-text">' + weather.weather[0].description + '</h5>');
-      $('.icon').html('<img src="http://openweathermap.org/img/w/' + weather.weather[0].icon + '.png">');
+      $('.icon').html('<img src="https://openweathermap.org/img/w/' + weather.weather[0].icon + '.png">');
      /* $('body').css("background-image", "url(http://openweathermap.org/img/w/" + weather.weather[0].icon + ".png)");  */
       console.log(weather.main.temp);
     }, 'jsonp');

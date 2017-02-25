@@ -3,7 +3,7 @@ body {
   color: #002C14;
   text-align: center;
   background-color: #2C6FAA;
-  background: url('http://images.freeimages.com/images/previews/872/paperboard-1170236.jpg') no-repeat center center fixed; 
+  background: url('https://images.freeimages.com/images/previews/872/paperboard-1170236.jpg') no-repeat center center fixed; 
   background-size: cover;
   /*background-repeat: repeat;
   background-position: fixed; */
@@ -16,7 +16,7 @@ body {
 }
 
 .border{
-  
+
   border: solid;
   border-width: thin;
   border-radius: 9%/ 20%;
@@ -25,7 +25,7 @@ body {
   margin: 0px;
   background-color: #569BC0;
   border-color: #060348;
-  
+
 }
 
 .icon-border{
@@ -36,11 +36,11 @@ body {
   margin: 0px;
   background-color: #569BC0;
   border-color: #060348;
- 
+
 }
 
 .solid-text{
-  
+
   color: #060348;
 }
 
